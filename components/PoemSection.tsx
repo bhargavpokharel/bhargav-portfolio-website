@@ -3,7 +3,7 @@ export default function PoemSection() {
     {
       title: "Surrender",
       date: "2026",
-      videoUrl: "/videos/I_am_surrendered_to_life.mp4", // ← Local video file
+      videoUrl: "/videos/I_am_surrendered_to_life.mp4",
       text: `I am surrendered to Life
 It expresses Itself through me
 And through all
@@ -17,7 +17,7 @@ Without separation`,
     {
       title: "Fly Inwards and Merge Into the Sun",
       date: "2026",
-      videoUrl: "", // Empty for now
+      videoUrl: "",
       text: `Fly inwards and merge into the Sun
 Not the physical Sun
 But the Sun of the Atman
@@ -29,7 +29,7 @@ If only I could behold it within my Heart again`,
     {
       title: "Every Atom is Sparking",
       date: "2026",
-      videoUrl: "", // Empty for now
+      videoUrl: "",
       text: `Every atom is sparking with Knowledge (Chit (चित्))
 Every particle is sparking
 Sparking with consciousness
@@ -80,7 +80,11 @@ Whom through whom all beings have existence.`,
             <h3 className="text-2xl font-serif font-semibold mb-2">{poem.title}</h3>
             <p className="text-sm opacity-50 mb-4">{poem.date}</p>
             <pre className="whitespace-pre-wrap font-sans text-lg leading-relaxed">
-              {poem.text}
+              {poem.text.split('\n').map((line, idx) => (
+                <span key={idx} className="block mb-2">
+                  {line || '\u00A0'}
+                </span>
+              ))}
             </pre>
           </div>
         ))}
