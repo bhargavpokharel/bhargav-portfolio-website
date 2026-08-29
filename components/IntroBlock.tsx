@@ -17,7 +17,7 @@ export default function IntroBlock({ theme }: { theme: "dark" | "light" }) {
           I&apos;m Bhargav — a final semester BCA student who loves to build
           things and let life flow through. I read, build, write poems, learn
           deeply, and spend quiet (or musical) moments in the silence, holding space for
-          myself amid the intensity and chaos of life and the psyche.
+          myself amid the intensity and chaos and pain of life and the psyche.
         </p>
       </div>
 
