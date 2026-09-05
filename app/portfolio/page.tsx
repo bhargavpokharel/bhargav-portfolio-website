@@ -58,11 +58,10 @@ export default function PortfolioPage() {
           <div className="mb-12 p-6 rounded-xl border-l-4 border-sky-600 bg-white/5">
             <p className="text-lg leading-relaxed mb-4">
               I&apos;m Bhargav — a final semester BCA student who loves to build things and let life flow through.
-              My projects are not just code; they&apos;re expressions of curiosity, problem-solving, and a deep desire
-              to understand how things work.
+              These are some projects I have done
             </p>
             <p className="text-lg leading-relaxed mb-4">
-              But beneath it all, I see all work as an expression of Life — the same Life that animates me,
+               I see all work as an expression of Life — the same Life that animates me,
               that moves through every atom, every line of code, every model I train. I don&apos;t chase titles.
               I&apos;m open to any role, field, or project where I can learn, contribute, and grow — as long as
               there is competent guidance and genuine human connection.
